@@ -1,0 +1,21 @@
+.campaignPreview_options {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(245, 245, 245, 1);
+}
+.campaignPreview_tickMark {
+  position: relative;
+  bottom: 268px;
+  left: 9rem;
+}
+.profile_titleDiscription_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Profile_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

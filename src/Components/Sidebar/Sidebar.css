@@ -1,0 +1,49 @@
+.Sidebar {
+  background-color: #001738;
+  color: #ffffff;
+  height: clamp(120vh, 100%, 1000vh);
+  /* overflow: hidden; */
+  /* height: 100vh; */
+}
+.companyLogo {
+  width: 8rem;
+}
+.sidebarLogoSection {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sidebarList {
+  list-style: none;
+}
+.sidebarItem {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 8px;
+  cursor: pointer;
+  color: #ececec;
+}
+.sidebarItem.active {
+  border-left: 5px solid #1977f3;
+  background-color: rgba(25, 119, 243, 0.1);
+}
+
+/* @media only screen and (min-width: 1200px) {
+  .Sidebar {
+    height: 120vh;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .Sidebar {
+    height: 120vh;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .Sidebar {
+    height: 100%;
+  }
+} */

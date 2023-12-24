@@ -1,0 +1,196 @@
+.CreateCampaign_page {
+  display: grid;
+  grid-template-columns: 5rem auto;
+}
+.header_createCampaign_section {
+  display: grid;
+  grid-template-rows: 4rem auto;
+  background-color: #f6f9ff;
+}
+.CreateCampaign_section {
+  height: clamp(120vh 100% 1000vh);
+  padding: 4rem;
+}
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.active_stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  background-color: rgba(242, 154, 46, 1);
+  width: 110px;
+  height: 40px;
+  padding: 10px;
+  font-size: 21px;
+  border-radius: 100%;
+  border: 2px solid #ffff;
+}
+
+.rest_stages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4eaf2;
+  width: 110px;
+  padding: 10px;
+  color: rgba(171, 181, 194, 1);
+  height: 40px;
+  font-size: 21px;
+  border-radius: 100%;
+}
+.lable_para {
+  font-size: 15px;
+  color: #0b1a33;
+  font-weight: 500;
+}
+
+progress {
+  width: 100%;
+  height: 3px;
+  appearance: none;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #ffb963; /* Change this color to your desired progress color */
+  border-radius: 5px;
+}
+
+progress::-moz-progress-bar {
+  background-color: #ffb963; /* Change this color to your desired progress color */
+  border-radius: 5px;
+}
+
+progress::-ms-fill {
+  background-color: #ffb963; /* Change this color to your desired progress color */
+  border-radius: 5px;
+}
+
+.chooseCampagine_main_container {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid rgba(218, 230, 255, 1);
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+.chooseCampagine_main_container_heading {
+  font-size: 15;
+  font-weight: 700;
+  padding: 10px;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.steps_campaign {
+  margin: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chooseCampagine_main_container_options_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+.campagine_options {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.campagine_options svg {
+  font-size: 24px;
+  margin-right: 10px;
+  /* Add more styles as needed */
+}
+
+.campagine_options h3 {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #0b1a33;
+  /* Add more styles as needed */
+}
+
+.campagine_options p {
+  font-size: 11px;
+  color: rgba(11, 26, 51, 0.5);
+  /* Add more styles as needed */
+}
+.chooseCampagine_main_container_options_container_icons {
+  color: rgba(139, 139, 139, 1);
+}
+.campagine_options.selected {
+  border-color: rgba(15, 110, 255, 1);
+  background-color: rgba(231, 240, 255, 0.3);
+}
+
+.tick-mark {
+  color: rgba(15, 110, 255, 1);
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+}
+.chooseCampagine_main_container_options_container_icons.selected-icon {
+  color: rgba(15, 110, 255, 1);
+}
+
+.createCampaign_continue_button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 2rem;
+}
+.createCampaign_continue_button button {
+  background-color: rgba(15, 110, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+
+  cursor: pointer;
+}
+/* Small devices (portrait phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+  .CreateCampaign_section {
+    height: fit-content;
+  }
+}
+
+/* Medium devices (landscape phones, 600px and up) */
+/* @media only screen and (min-width: 601px) and (max-width: 768px) {
+  .CreateCampaign_section {
+    height: fit-content;
+  }
+} */
+
+/* Large devices (tablets, 768px and up) */
+/* @media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .CreateCampaign_section {
+    height: 100%;
+  }
+} */
+
+/* Extra large devices (desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .CreateCampaign_section {
+    height: 100vh;
+  }
+} */
